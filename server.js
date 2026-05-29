@@ -1088,6 +1088,6 @@ bot.catch((err) => {
 // ==========================================
 // START
 // ==========================================
-const PORT = process.env.PORT || 3011;
+const PORT = process.env.PORT || 3023;
 app.listen(PORT, () => console.log(`🌐 Server listening on port ${PORT}`));
 bot.start({ onStart: (botInfo) => console.log(`🤖 Bot @${botInfo.username} started!`) });
