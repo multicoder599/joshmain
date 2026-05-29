@@ -115,7 +115,7 @@ const mainMenu = new InlineKeyboard()
     .text("📋 Menu", "menu");
 
 const CATEGORY_PRICES = {
-    'cat_1': { 'WEEKLY': 199, 'MONTHLY': 299, 'QUARTERLY': 499, 'LIFETIME': 999 },
+    'cat_1': { 'WEEKLY': 1, 'MONTHLY': 299, 'QUARTERLY': 499, 'LIFETIME': 999 },
     'cat_2': { 'WEEKLY': 299, 'MONTHLY': 499, 'QUARTERLY': 799, 'LIFETIME': 1499 },
     'cat_3': { 'WEEKLY': 199, 'MONTHLY': 299, 'QUARTERLY': 488, 'LIFETIME': 999 },
     'cat_4': { 'WEEKLY': 299, 'MONTHLY': 499, 'QUARTERLY': 799, 'LIFETIME': 1499 },
