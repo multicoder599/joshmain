@@ -560,7 +560,7 @@ app.post('/api/megapay/webhook', async (req, res) => {
 
 bot.command("start", async (ctx) => {
     await getOrCreateUser(ctx);
-    const welcomeText = `Hello ${md(ctx.from.first_name) || ''}\n🔥 Welcome to 🥵💦INNER CIRCLE VIP ACCESS❤\nChoose your subscription package below 👇`;
+    const welcomeText = `Hello ${md(ctx.from.first_name) || ''}\n🔥 Welcome to 🥵💦HOTWIFEROZIE VIP ACCESS❤\nChoose your subscription package below 👇`;
     await ctx.replyWithPhoto(IMG_MAIN_BANNER, { caption: welcomeText, reply_markup: mainMenu });
 });
 
