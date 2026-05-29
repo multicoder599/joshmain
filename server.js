@@ -110,7 +110,7 @@ const mainMenu = new InlineKeyboard()
     .text("❤CELEBRITY LEAKS💦📺", "cat_4").row()
     .text("💎ALL OF THE ABOVE❤💎", "cat_all").row()
     .text("👤 My Account", "my_account").row()
-    .url("💬 Support ↗️", "https://t.me/multitech_x").row()
+    .url("💬 Support ↗️", "https://t.me/hotwiferozi").row()
     .text("ℹ️ About", "about")
     .text("📋 Menu", "menu");
 
@@ -536,7 +536,7 @@ app.post('/api/megapay/webhook', async (req, res) => {
 
         const linkMenu = new InlineKeyboard()
             .url(`🔗 JOIN ${md(transaction.category)} 🔗`, invite.invite_link).row()
-            .url("💬 Support ↗️", "https://t.me/multitech_x");
+            .url("💬 Support ↗️", "https://t.me/hotwiferozie");
 
         await bot.api.sendMessage(transaction.chatId, successText, {
             reply_markup: linkMenu,
@@ -829,7 +829,7 @@ bot.callbackQuery(/^renew_/, async (ctx) => {
 bot.callbackQuery("back_home", async (ctx) => {
     await ctx.conversation.exit();
     userIntent.delete(ctx.from.id);
-    const welcomeText = `Hello ${md(ctx.from.first_name) || ''}\n🔥 Welcome to VIP ACCESS\nChoose your subscription package below 👇`;
+    const welcomeText = `Hello ${md(ctx.from.first_name) || ''}\n🔥 Welcome to 💦💦HOTWIFEROZIE VIP ACCESS❤\nChoose your subscription package below 👇`;
     
     try {
         if (ctx.callbackQuery.message.photo && ctx.callbackQuery.message.photo.length > 0) {
