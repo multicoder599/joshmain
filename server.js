@@ -102,16 +102,20 @@ const CATEGORIES = {
     'cat_4': '📺❤️ GFE ❤️',
     'cat_5': '📺🍑 BACKSHOTS 🍑',
     'cat_6': '📺🤰 PREGO CONTENT 🤰',
+    'cat_7': '🍑 FAT ASS 🍑',
+    'cat_8': '🐕 DOGGYSTYLE 🐕',
     'cat_all': '💎 ALL CATEGORIES 💎'
 };
 
 const mainMenu = new InlineKeyboard()
-    .text("📺🔥 HARDFUCK 🔥", "cat_1").row()
-    .text("📺💃 SOLO TEASE 💃", "cat_2").row()
-    .text("📺👩‍❤️‍👨 BOYGIRL 👩‍❤️‍👨", "cat_3").row()
-    .text("📺❤️ GFE ❤️", "cat_4").row()
-    .text("📺🍑 BACKSHOTS 🍑", "cat_5").row()
-    .text("📺🤰 PREGO CONTENT 🤰", "cat_6").row()
+.text("🍑 FAT ASS 🍑", "cat_1").row()
+    .text("🐕 DOGGYSTYLE 🐕", "cat_2").row()
+    .text("📺🔥 HARDFUCK 🔥", "cat_3").row()
+    .text("📺💃 SOLO TEASE 💃", "cat_4").row()
+    .text("📺👩‍❤️‍👨 BOYGIRL 👩‍❤️‍👨", "cat_5").row()
+    .text("📺❤️ GFE ❤️", "cat_6").row()
+    .text("📺🍑 BACKSHOTS 🍑", "cat_7").row()
+    .text("📺🤰 PREGO CONTENT 🤰", "cat_8").row()
     .text("💎 ALL CATEGORIES 💎", "cat_all").row()
     .text("👤 My Account", "my_account").row()
     .url("💬 Support ↗️", "https://t.me/hotwiferozi").row()
@@ -119,16 +123,20 @@ const mainMenu = new InlineKeyboard()
     .text("📋 Menu", "menu");
 
 const CATEGORY_PRICES = {
-    'cat_1': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
-    'cat_2': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
-    'cat_3': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
-    'cat_4': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
-    'cat_5': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
-    'cat_6': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
-    'cat_all': { '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 }
+    'cat_1': { '30MINS': 1, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_2': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_3': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_4': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_5': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_6': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_7': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_8': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 },
+    'cat_all': { '30MINS': 99, '2HRS': 199, '1DAY': 249, '3DAYS': 499, '7DAYS': 799, '1MONTH': 1999, '3MONTHS': 2999, '6MONTHS': 4999, '1YEAR': 7999 }
 };
 
 const PLAN_LABELS = {
+    '30MINS': '⚡ 30 Minutes — 30 mins',
+    '2HRS': '⏱️ 2 Hours — 120 mins',
     '1DAY': '1 Day — 24 hours',
     '3DAYS': '3 Days — 72 hours',
     '7DAYS': '7 Days — 1 week',
@@ -155,30 +163,29 @@ const cancelMenu = new InlineKeyboard()
 function psychologyRenewMenu(categoryKey, currentPlan) {
     const prices = CATEGORY_PRICES[categoryKey];
     const menu = new InlineKeyboard();
-    const planOrder = ['1YEAR', '6MONTHS', '3MONTHS', '1MONTH', '7DAYS', '3DAYS', '1DAY'];
-    const rank = { '1DAY': 1, '3DAYS': 2, '7DAYS': 3, '1MONTH': 4, '3MONTHS': 5, '6MONTHS': 6, '1YEAR': 7 };
+    const planOrder = ['LIFETIME', 'QUARTERLY', 'MONTHLY', 'WEEKLY'];
+    const rank = { WEEKLY: 1, MONTHLY: 2, QUARTERLY: 3, LIFETIME: 4 };
     const currentRank = rank[currentPlan] || 0;
-
+    
     planOrder.forEach(plan => {
         if (!prices[plan]) return;
         const amount = prices[plan];
         const isCurrent = plan === currentPlan;
         const isUpgrade = rank[plan] > currentRank;
-
+        
         let prefix = '';
         if (isCurrent) prefix = '♻️ ';
-        else if (plan === '1YEAR') prefix = '💎 ';
-        else if (plan === '6MONTHS') prefix = '🔥 ';
-        else if (plan === '3MONTHS') prefix = '⭐ ';
-        else if (plan === '1MONTH') prefix = '✨ ';
-
+        else if (plan === 'LIFETIME') prefix = '💎 ';
+        else if (plan === 'QUARTERLY') prefix = '🔥 ';
+        else if (plan === 'MONTHLY') prefix = '⭐ ';
+        
         let suffix = '';
         if (isCurrent) suffix = ' (Current)';
         else if (isUpgrade) suffix = ' 🚀 UPGRADE';
-
+        
         menu.text(`${prefix}${PLAN_LABELS[plan]} | ${amount} KSHS${suffix}`, `renew_${plan}_${amount}_${categoryKey}`).row();
     });
-
+    
     menu.text("🏠 Home", "back_home");
     return menu;
 }
@@ -186,20 +193,35 @@ function psychologyRenewMenu(categoryKey, currentPlan) {
 // ==========================================
 // HELPERS
 // ==========================================
-function getPlanDays(plan) {
-    const plans = { '1DAY': 1, '3DAYS': 3, '7DAYS': 7, '1MONTH': 30, '3MONTHS': 90, '6MONTHS': 180, '1YEAR': 365 };
-    return plans[plan] || 30;
+function getPlanEndDate(startDate, plan) {
+    const endDate = new Date(startDate);
+    const durations = {
+        '30MINS': () => endDate.setMinutes(endDate.getMinutes() + 30),
+        '2HRS': () => endDate.setMinutes(endDate.getMinutes() + 120),
+        '1DAY': () => endDate.setDate(endDate.getDate() + 1),
+        '3DAYS': () => endDate.setDate(endDate.getDate() + 3),
+        '7DAYS': () => endDate.setDate(endDate.getDate() + 7),
+        '1MONTH': () => endDate.setDate(endDate.getDate() + 30),
+        '3MONTHS': () => endDate.setDate(endDate.getDate() + 90),
+        '6MONTHS': () => endDate.setDate(endDate.getDate() + 180),
+        '1YEAR': () => endDate.setDate(endDate.getDate() + 365)
+    };
+    if (durations[plan]) durations[plan]();
+    else endDate.setDate(endDate.getDate() + 30);
+    return endDate;
 }
 
 function getPlanDisplay(plan) {
-    const displays = { 
-        '1DAY': "1 day", 
-        '3DAYS': "3 days", 
-        '7DAYS': "7 days", 
-        '1MONTH': "30 days", 
-        '3MONTHS': "90 days", 
-        '6MONTHS': "180 days", 
-        '1YEAR': "365 days" 
+    const displays = {
+        '30MINS': "30 minutes",
+        '2HRS': "2 hours",
+        '1DAY': "1 day",
+        '3DAYS': "3 days",
+        '7DAYS': "7 days",
+        '1MONTH': "30 days",
+        '3MONTHS': "90 days",
+        '6MONTHS': "180 days",
+        '1YEAR': "365 days"
     };
     return displays[plan] || "30 days";
 }
@@ -290,20 +312,42 @@ async function safeEditMessage(ctx, text, replyMarkup, parseMode = "Markdown") {
 // ✅ ACCOUNT VIEW HELPERS
 function getAccountText(user) {
     const activeSubs = user.subscriptions.filter(s => s.status === 'active' && s.endDate > new Date());
-    let text = `👤 *MY ACCOUNT*\n━━━━━━━━━━━━━━━\n`;
-    text += `Welcome back, *${md(user.firstName) || 'VIP Member'}*${user.username ? ' (@' + md(user.username) + ')' : ''}!\n\n`;
+    let text = `👤 *MY ACCOUNT*
+━━━━━━━━━━━━━━━
+`;
+    text += `Welcome back, *${md(user.firstName) || 'VIP Member'}*${user.username ? ' (@' + md(user.username) + ')' : ''}!
+
+`;
 
     if (activeSubs.length === 0) {
-        text += `❌ You have no active subscriptions.\n\nTap below to subscribe or renew 👇`;
+        text += `❌ You have no active subscriptions.
+
+Tap below to subscribe or renew 👇`;
     } else {
-        text += `📦 *ACTIVE SUBSCRIPTIONS*\n━━━━━━━━━━━━━━━\n`;
+        text += `📦 *ACTIVE SUBSCRIPTIONS*
+━━━━━━━━━━━━━━━
+`;
         activeSubs.forEach((sub, i) => {
-            const daysLeft = Math.ceil((sub.endDate - new Date()) / (1000 * 60 * 60 * 24));
-            text += `\n${i + 1}. *${md(sub.category)}*\n`;
-            text += `   📅 Plan: ${md(sub.plan)} (${getPlanDisplay(sub.plan)})\n`;
-            text += `   💵 Amount: KES ${sub.amount}\n`;
-            text += `   ⏳ Expires in: *${daysLeft} days*\n`;
-            text += `   📆 Expiry Date: ${sub.endDate.toLocaleDateString()}\n`;
+            const msLeft = sub.endDate - new Date();
+            let timeLeft;
+            if (msLeft < 60 * 60 * 1000) {
+                timeLeft = `${Math.ceil(msLeft / (60 * 1000))} minutes`;
+            } else if (msLeft < 24 * 60 * 60 * 1000) {
+                timeLeft = `${Math.ceil(msLeft / (60 * 60 * 1000))} hours`;
+            } else {
+                timeLeft = `${Math.ceil(msLeft / (24 * 60 * 60 * 1000))} days`;
+            }
+            text += `
+${i + 1}. *${md(sub.category)}*
+`;
+            text += `   📅 Plan: ${md(sub.plan)} (${getPlanDisplay(sub.plan)})
+`;
+            text += `   💵 Amount: KES ${sub.amount}
+`;
+            text += `   ⏳ Expires in: *${timeLeft}*
+`;
+            text += `   📆 Expiry: ${sub.endDate.toLocaleString()}
+`;
         });
     }
     return text;
@@ -326,8 +370,8 @@ function getAccountMenu(user) {
             const sub = activeSubs[0];
             const catKey = getCategoryKeyFromSub(sub);
             const prices = CATEGORY_PRICES[catKey];
-            const planOrder = ['1DAY', '3DAYS', '7DAYS', '1MONTH', '3MONTHS', '6MONTHS', '1YEAR'];
-            const rank = { '1DAY': 1, '3DAYS': 2, '7DAYS': 3, '1MONTH': 4, '3MONTHS': 5, '6MONTHS': 6, '1YEAR': 7 };
+            const planOrder = ['30MINS', '2HRS', '1DAY', '3DAYS', '7DAYS', '1MONTH', '3MONTHS', '6MONTHS', '1YEAR'];
+            const rank = { '30MINS': 0, '2HRS': 1, '1DAY': 2, '3DAYS': 3, '7DAYS': 4, '1MONTH': 5, '3MONTHS': 6, '6MONTHS': 7, '1YEAR': 8 };
             const currentRank = rank[sub.plan] || 0;
 
             planOrder.forEach(plan => {
@@ -349,7 +393,7 @@ function getAccountMenu(user) {
 async function notifyAdminNewSubscription(user, sub) {
     const planDetail = `${sub.category} — ${sub.plan}`;
     const text = `💰 *NEW SALE: ${md(planDetail)}*\n━━━━━━━━━━━━━━━\n👤 ${md(user.firstName) || 'Unknown'} (@${md(user.username) || 'N/A'})\n🆔 ${user.telegramId}\n📱 ${md(user.phone) || 'N/A'}\n📦 ${md(sub.category)}\n📅 ${md(sub.plan)}\n💵 KES ${sub.amount}\n🕐 ${sub.startDate.toLocaleString()}`;
-
+    
     if (ADMIN_CHANNEL_ID) {
         try {
             await bot.api.sendMessage(ADMIN_CHANNEL_ID, text, { parse_mode: "Markdown" });
@@ -357,7 +401,7 @@ async function notifyAdminNewSubscription(user, sub) {
             console.error('Admin channel notify (new) failed:', e.message);
         }
     }
-
+    
     for (const adminId of ADMIN_IDS) {
         try {
             await bot.api.sendMessage(adminId, text, { parse_mode: "Markdown" });
@@ -370,7 +414,7 @@ async function notifyAdminNewSubscription(user, sub) {
 async function notifyAdminRemoval(user, sub) {
     const planDetail = `${sub.category} — ${sub.plan}`;
     const text = `🚫 *REMOVED: ${md(planDetail)}*\n━━━━━━━━━━━━━━━\n👤 ${md(user.firstName) || 'Unknown'} (@${md(user.username) || 'N/A'})\n🆔 ${user.telegramId}\n📦 ${md(sub.category)}\n📅 ${md(sub.plan)} (expired)\n🕐 ${new Date().toLocaleString()}`;
-
+    
     if (ADMIN_CHANNEL_ID) {
         try {
             await bot.api.sendMessage(ADMIN_CHANNEL_ID, text, { parse_mode: "Markdown" });
@@ -378,7 +422,7 @@ async function notifyAdminRemoval(user, sub) {
             console.error('Admin channel notify (removal) failed:', e.message);
         }
     }
-
+    
     for (const adminId of ADMIN_IDS) {
         try {
             await bot.api.sendMessage(adminId, text, { parse_mode: "Markdown" });
@@ -398,8 +442,8 @@ async function mpesaPrompt(conversation, ctx) {
         const planName = intent?.plan || "Subscription";
         let amountToPay = parseFloat(intent?.amount || 0);
         const catKey = intent?.categoryKey || "cat_1";
-
-        if (amountToPay === 0) amountToPay = 249;
+        
+        if (amountToPay === 0) amountToPay = 99;
 
         const numberCtx = await conversation.wait();
         const rawPhone = numberCtx.message?.text;
@@ -517,8 +561,7 @@ app.post('/api/megapay/webhook', async (req, res) => {
             expire_date: Math.floor(Date.now() / 1000) + (24 * 60 * 60)
         });
 
-        const endDate = new Date();
-        endDate.setDate(endDate.getDate() + getPlanDays(transaction.plan));
+        const endDate = getPlanEndDate(new Date(), transaction.plan);
 
         const user = await User.findOneAndUpdate(
             { telegramId: transaction.userId },
@@ -550,11 +593,11 @@ app.post('/api/megapay/webhook', async (req, res) => {
             { upsert: true, new: true, returnDocument: 'after' }
         );
 
-        const successText = `🎉 *PAYMENT SUCCESSFUL!*\n\nThank you for your payment! Your premium access is now ready.\n\n💰 *PAYMENT DETAILS*\n━━━━━━━━━━━━━━━\n▪️ Amount: KES ${amount}\n▪️ M-Pesa Receipt: ${receipt}\n▪️ Phone: ${rawCallbackPhone}\n▪️ Date: ${transaction.date}\n\n🔗 *CHANNEL ACCESS*\n━━━━━━━━━━━━━━━\n▪️ Channel: ${md(transaction.category)}\n▪️ Plan: ${md(transaction.plan)}\n▪️ Expires: ${endDate.toLocaleDateString()}\n\n⚠️ *ONE-TIME LINK:* This link can only be used *ONCE*. Once you click and join, it dies immediately. Do NOT share it.\n\nNeed help? Contact our support team.`;
+        const successText = `🎉 *PAYMENT SUCCESSFUL!*\n\nThank you for your payment! Your premium access is now ready.\n\n💰 *PAYMENT DETAILS*\n━━━━━━━━━━━━━━━\n▪️ Amount: KES ${amount}\n▪️ M-Pesa Receipt: ${receipt}\n▪️ Phone: ${rawCallbackPhone}\n▪️ Date: ${transaction.date}\n\n🔗 *CHANNEL ACCESS*\n━━━━━━━━━━━━━━━\n▪️ Channel: ${md(transaction.category)}\n▪️ Plan: ${md(transaction.plan)}\n▪️ Expires: ${endDate.toLocaleString()}\n\n⚠️ *ONE-TIME LINK:* This link can only be used *ONCE*. Once you click and join, it dies immediately. Do NOT share it.\n\nNeed help? Contact our support team.`;
 
         const linkMenu = new InlineKeyboard()
             .url(`🔗 JOIN ${md(transaction.category)} 🔗`, invite.invite_link).row()
-            .url("💬 Support ↗️", "https://t.me/hotwiferozi");
+            .url("💬 Support ↗️", "https://t.me/hotwiferozie");
 
         await bot.api.sendMessage(transaction.chatId, successText, {
             reply_markup: linkMenu,
@@ -610,54 +653,54 @@ bot.command("account", async (ctx) => {
 // ADMIN COMMANDS
 bot.command("admin", async (ctx) => {
     if (!ADMIN_IDS.includes(ctx.from.id)) return ctx.reply("⛔ Unauthorized");
-
+    
     const menu = new InlineKeyboard()
         .text("📊 Stats + Breakdown", "admin_stats").row()
         .text("📢 Broadcast Promo", "admin_broadcast").row()
         .text("👥 24H Sales Report", "admin_users").row()
         .text("🔄 Force Reminder", "admin_remind").row();
-
+    
     ctx.reply("🔧 *ADMIN PANEL*", { parse_mode: "Markdown", reply_markup: menu });
 });
 
 bot.command("broadcast", async (ctx) => {
     if (!ADMIN_IDS.includes(ctx.from.id)) return ctx.reply("⛔ Unauthorized");
-
+    
     const message = ctx.match;
     if (!message) return ctx.reply("Usage: /broadcast Your promotional message here");
-
+    
     await sendPromoToAll(message, 'manual');
     ctx.reply("✅ Broadcast initiated!");
 });
 
 bot.callbackQuery("admin_stats", async (ctx) => {
     if (!ADMIN_IDS.includes(ctx.from.id)) return;
-
+    
     const totalUsers = await User.countDocuments();
     const activeSubs = await User.countDocuments({ 'subscriptions.status': 'active', 'subscriptions.endDate': { $gt: new Date() } });
-
+    
     const todayStart = new Date();
     todayStart.setHours(0,0,0,0);
-
+    
     const todayUsers = await User.find({ 'subscriptions.startDate': { $gte: todayStart } });
     let todayCount = 0;
     let todayRevenue = 0;
-
+    
     const categoryBreakdown = {};
     const planBreakdown = {};
-
+    
     todayUsers.forEach(u => {
         u.subscriptions.forEach(s => {
             if (s.startDate >= todayStart) {
                 todayCount++;
                 todayRevenue += s.amount || 0;
-
+                
                 if (!categoryBreakdown[s.category]) {
                     categoryBreakdown[s.category] = { count: 0, revenue: 0 };
                 }
                 categoryBreakdown[s.category].count++;
                 categoryBreakdown[s.category].revenue += s.amount;
-
+                
                 const planKey = `${s.category} — ${s.plan}`;
                 if (!planBreakdown[planKey]) {
                     planBreakdown[planKey] = { count: 0, revenue: 0 };
@@ -667,23 +710,23 @@ bot.callbackQuery("admin_stats", async (ctx) => {
             }
         });
     });
-
+    
     let breakdownText = '';
     const sortedPlans = Object.entries(planBreakdown).sort((a, b) => b[1].count - a[1].count);
     sortedPlans.forEach(([plan, data]) => {
         breakdownText += `\n${plan}: ${data.count} sales — KES ${data.revenue}`;
     });
-
+    
     let text = `📊 *TODAY'S STATS*\n━━━━━━━━━━━━━━━\n`;
     text += `👥 Total Users: ${totalUsers}\n`;
     text += `✅ Active Subs: ${activeSubs}\n`;
     text += `💰 Today: ${todayCount} subs — KES ${todayRevenue}\n`;
     text += `📅 ${todayStart.toLocaleDateString()}\n`;
-
+    
     if (sortedPlans.length > 0) {
         text += `\n🏆 *TOP PERFORMERS TODAY*\n━━━━━━━━━━━━━━━${breakdownText}\n`;
     }
-
+    
     await ctx.editMessageText(text, { parse_mode: "Markdown" });
     await ctx.answerCallbackQuery();
 });
@@ -696,24 +739,24 @@ bot.callbackQuery("admin_broadcast", async (ctx) => {
 
 bot.callbackQuery("admin_users", async (ctx) => {
     if (!ADMIN_IDS.includes(ctx.from.id)) return;
-
+    
     const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
-
+    
     const users = await User.find({
         'subscriptions.startDate': { $gte: twentyFourHoursAgo }
     }).sort({ 'subscriptions.startDate': -1 });
-
+    
     const planBreakdown = {};
     let totalAmount = 0;
     let count = 0;
     let userList = '';
-
+    
     users.forEach(u => {
         const recentSubs = u.subscriptions.filter(s => s.startDate >= twentyFourHoursAgo);
         recentSubs.forEach(sub => {
             count++;
             totalAmount += sub.amount || 0;
-
+            
             const planKey = `${sub.category} — ${sub.plan}`;
             if (!planBreakdown[planKey]) {
                 planBreakdown[planKey] = { count: 0, revenue: 0, users: [] };
@@ -726,13 +769,13 @@ bot.callbackQuery("admin_users", async (ctx) => {
                 id: u.telegramId,
                 time: sub.startDate.toLocaleString()
             });
-
+            
             userList += `\n${count}. ${md(u.firstName) || 'Unknown'} (@${md(u.username) || 'N/A'})\n`;
             userList += `   📦 ${md(sub.category)} — ${md(sub.plan)}\n`;
             userList += `   💵 KES ${sub.amount} | 🕐 ${sub.startDate.toLocaleString()}\n`;
         });
     });
-
+    
     let breakdownText = '';
     const sortedPlans = Object.entries(planBreakdown).sort((a, b) => b[1].count - a[1].count);
     let rank = 1;
@@ -740,21 +783,21 @@ bot.callbackQuery("admin_users", async (ctx) => {
         breakdownText += `\n${rank}. ${plan}\n   📊 ${data.count} sold | 💰 KES ${data.revenue}`;
         rank++;
     });
-
+    
     let text = `📋 *24H SALES REPORT*\n━━━━━━━━━━━━━━━\n`;
     text += `👥 Total Subscriptions: ${count}\n`;
     text += `💰 Total Revenue: KES ${totalAmount}\n`;
-
+    
     if (sortedPlans.length > 0) {
         text += `\n🏆 *SALES BY PLAN (Ranked)*\n━━━━━━━━━━━━━━━${breakdownText}\n`;
     }
-
+    
     text += `\n━━━━━━━━━━━━━━━\n👤 *DETAILED LIST*\n━━━━━━━━━━━━━━━${userList || '\nNo sales in last 24 hours.'}`;
-
+    
     if (text.length > 4000) {
         text = text.substring(0, 4000) + '\n\n... (truncated)';
     }
-
+    
     await ctx.editMessageText(text, { parse_mode: "Markdown" });
     await ctx.answerCallbackQuery();
 });
@@ -780,13 +823,13 @@ bot.callbackQuery(/^cat_/, async (ctx) => {
     const catKey = ctx.callbackQuery.data;
     ctx.session.selectedCategory = CATEGORIES[catKey];
     ctx.session.categoryKey = catKey;
-
+    
     const durationText = `${ctx.session.selectedCategory}\n\nPay to watch all exclusive content full videos\n\nChoose your plan:`;
-
+    
     await ctx.editMessageMedia({
         type: 'photo', media: IMG_MPESA_BANNER, caption: durationText
     }, { reply_markup: getDurationMenu(catKey) });
-
+    
     await ctx.answerCallbackQuery();
 });
 
@@ -794,7 +837,7 @@ bot.callbackQuery(/^plan_/, async (ctx) => {
     const data = ctx.callbackQuery.data;
     const match = data.match(/^plan_([A-Z0-9-]+)_(\d+)$/);
     if (!match) return;
-
+    
     const plan = match[1];
     const amount = parseInt(match[2]);
 
@@ -820,7 +863,7 @@ bot.callbackQuery(/^renew_/, async (ctx) => {
     const data = ctx.callbackQuery.data;
     const match = data.match(/^renew_([A-Z0-9-]+)_(\d+)_(cat_.+)$/);
     if (!match) return;
-
+    
     const plan = match[1];
     const amount = parseInt(match[2]);
     const categoryKey = match[3];
@@ -848,7 +891,7 @@ bot.callbackQuery("back_home", async (ctx) => {
     await ctx.conversation.exit();
     userIntent.delete(ctx.from.id);
     const welcomeText = `Hello ${md(ctx.from.first_name) || ''}\n🔥 Welcome to 💦💦HOTWIFEROZIE VIP ACCESS❤\nChoose your subscription package below 👇`;
-
+    
     try {
         if (ctx.callbackQuery.message.photo && ctx.callbackQuery.message.photo.length > 0) {
             await ctx.editMessageMedia({
@@ -904,7 +947,7 @@ async function sendPromoToAll(message, type = 'promo') {
 
 async function runReminders() {
     const now = new Date();
-
+    
     const twoDaysStart = new Date(now);
     twoDaysStart.setDate(twoDaysStart.getDate() + 2);
     twoDaysStart.setHours(0, 0, 0, 0);
@@ -929,16 +972,16 @@ async function runReminders() {
             if (sub.status !== 'active') continue;
             if (sub.endDate < twoDaysStart || sub.endDate > twoDaysEnd) continue;
             if ((sub.reminderLevel || 0) >= 1) continue;
-
+            
             try {
                 const catKey = getCategoryKeyFromSub(sub);
-                const text = `⏰ *SUBSCRIPTION EXPIRING SOON*\n\nYour ${md(sub.category)} (${md(sub.plan)}) expires in *2 days* (${sub.endDate.toLocaleDateString()}).\n\n💡 *Smart move:* Most VIP members upgrade to longer plans. Why? Better value, zero interruptions, and you lock in today's price.\n\n🔥 *Popular upgrades:*\n• 1 Year — never pay again\n• 6 Months — best value\n• 3 Months — save vs monthly\n\n👇 Renew or upgrade below:`;
-
+                const text = `⏰ *SUBSCRIPTION EXPIRING SOON*\n\nYour ${md(sub.category)} (${md(sub.plan)}) expires in *2 days* (${sub.endDate.toLocaleDateString()}).\n\n💡 *Smart move:* Most VIP members upgrade to longer plans. Why? Better value, zero interruptions, and you lock in today's price.\n\n🔥 *Popular upgrades:*\n• 3 Months — save 40% vs weekly\n• Lifetime — never pay again\n\n👇 Renew or upgrade below:`;
+                
                 await bot.api.sendMessage(user.telegramId, text, {
                     parse_mode: "Markdown",
                     reply_markup: psychologyRenewMenu(catKey, sub.plan)
                 });
-
+                
                 sub.reminderLevel = 1;
                 saved = true;
                 console.log(`⏰ 2-day reminder sent to ${user.telegramId}`);
@@ -979,16 +1022,16 @@ async function runReminders() {
             if (sub.status !== 'active') continue;
             if (sub.endDate < oneDayStart || sub.endDate > oneDayEnd) continue;
             if ((sub.reminderLevel || 0) >= 2) continue;
-
+            
             try {
                 const catKey = getCategoryKeyFromSub(sub);
                 const text = `⏰ *FINAL NOTICE — EXPIRES TOMORROW!*\n\nYour ${md(sub.category)} (${md(sub.plan)}) ends *tomorrow* (${sub.endDate.toLocaleDateString()}).\n\n⚠️ This is your *final warning*. Once expired, you'll be removed from the channel and lose access to all content.\n\n💎 *Don't just renew — upgrade!* Longer plans = bigger savings.\n\n👇 This is your last chance 👇`;
-
+                
                 await bot.api.sendMessage(user.telegramId, text, {
                     parse_mode: "Markdown",
                     reply_markup: psychologyRenewMenu(catKey, sub.plan)
                 });
-
+                
                 sub.reminderLevel = 2;
                 saved = true;
                 console.log(`⏰ 1-day (tomorrow) reminder sent to ${user.telegramId}`);
@@ -1008,7 +1051,7 @@ async function runReminders() {
 
 cron.schedule('0 9 * * *', runReminders);
 
-cron.schedule('0 * * * *', async () => {
+cron.schedule('* * * * *', async () => {
     const now = new Date();
     const users = await User.find({
         isActive: { $ne: false },
@@ -1022,28 +1065,20 @@ cron.schedule('0 * * * *', async () => {
 
     for (const user of users) {
         let saved = false;
-
+        
         for (const sub of user.subscriptions) {
             if (sub.status !== 'active' || sub.endDate >= now) continue;
-
+            
             sub.status = 'expired';
             sub.reminderLevel = 3;
             saved = true;
-
-            // ✅ FIX: Only ban if user has NO other active subscriptions
-            const stillHasActive = user.subscriptions.some(s => 
-                s.status === 'active' && s.endDate >= now
-            );
-
-            if (!stillHasActive) {
-                await banUserFromChannel(user.telegramId);
-            }
-
+            
+            await banUserFromChannel(user.telegramId);
             await notifyAdminRemoval(user, sub);
 
             try {
                 const expiryText = `⏰ *ACCESS REVOKED*\n\nYour ${md(sub.category)} subscription has expired. You've been removed from the VIP channel.\n\n😢 You're missing out! Fresh content drops daily and thousands of members are enjoying it right now.\n\n🔥 *Come back stronger:* Choose any plan below and rejoin instantly 👇`;
-
+                
                 await bot.api.sendMessage(user.telegramId, expiryText, {
                     parse_mode: "Markdown",
                     reply_markup: mainMenu
@@ -1057,7 +1092,7 @@ cron.schedule('0 * * * *', async () => {
                 }
             }
         }
-
+        
         if (saved) await user.save();
     }
 });
@@ -1097,7 +1132,7 @@ bot.catch((err) => {
     const ctx = err.ctx;
     const e = err.error;
     const desc = e?.description || "";
-
+    
     if (
         desc === "Forbidden: bot was blocked by the user" ||
         desc.includes("query is too old") ||
